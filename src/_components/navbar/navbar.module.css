@@ -1,0 +1,20 @@
+.body {
+  @apply w-full h-24 bg-stardew-purple px-8 rounded-3xl;
+}
+
+.content {
+  @apply w-1/2 h-full flex justify-between items-center mx-auto;
+}
+
+.navItem {
+  @apply flex items-center gap-x-2 font-semibold lg:hover:text-stardew-orange
+  disabled:text-stardew-red disabled:hover:text-stardew-red;
+}
+
+.navItem > p {
+  @apply first-letter:uppercase;
+}
+
+.navItem > figure {
+  @apply w-4 h-4 bg-stardew-yellow rounded-full;
+}

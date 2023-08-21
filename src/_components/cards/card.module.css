@@ -1,0 +1,36 @@
+/** Fish */
+.basicCard {
+  @apply w-56 h-80 flex flex-col justify-between items-center pb-4 rounded-3xl bg-stardew-purple;
+}
+
+.header {
+  @apply w-full h-32 flex justify-center items-center bg-stardew-blue rounded-t-3xl;
+}
+
+.tags {
+  @apply w-full h-auto py-2 flex items-center justify-around;
+}
+
+.icon {
+  @apply w-12 h-12 bg-stardew-yellow;
+}
+
+.name {
+  @apply text-2xl font-bold first-letter:uppercase;
+}
+
+.iconsList {
+  @apply w-full h-auto py-4 flex justify-center items-center gap-x-4 mx-auto;
+}
+
+.iconsList > figure {
+  @apply w-7 h-7 bg-stardew-yellow;
+}
+
+.locContainer {
+  @apply flex items-center justify-center flex-wrap px-2;
+}
+
+.location {
+  @apply text-sm;
+}
