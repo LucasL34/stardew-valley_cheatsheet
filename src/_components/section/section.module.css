@@ -1,0 +1,16 @@
+.section {
+  @apply w-full py-4 flex flex-col gap-x-4 text-lg first-letter:uppercase
+  px-4;
+}
+
+.cards {
+  @apply grid grid-cols-4 gap-x-4 mt-8;
+}
+
+.titleSection {
+  @apply flex gap-x-4 text-3xl;
+}
+
+.title {
+  @apply first-letter:uppercase;
+}

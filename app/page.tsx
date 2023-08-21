@@ -1,14 +1,25 @@
-export default function Page() {
-  return (
-    <>
-      <h1 className="text-xl text-[#c4c4c4]">Hello, Next.js!</h1>
+import { enableSearchBar } from "config/featureFlags";
+import { getSections } from "mocks/sections";
 
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus tempore
-        aspernatur quam praesentium sunt totam asperiores numquam, amet eius
-        quidem, hic nesciunt obcaecati corrupti ratione vel, voluptas veritatis
-        ullam id.
-      </p>
-    </>
+import Navbar from "_components/navbar/Navbar";
+import Section from "_components/section/Section";
+import SearchBar from "_components/searchbar/SearchBar";
+
+export default function Page() {
+  const SECTIONS = getSections();
+
+  return (
+    <div className="w-full h-screen max-w-5xl mx-auto py-8">
+      {/* logo */}
+      <Navbar />
+
+      {enableSearchBar ? <SearchBar /> : <></>}
+
+      <div className="mt-8">
+        {SECTIONS.map((section) => {
+          return <Section key={section.id} {...section} />;
+        })}
+      </div>
+    </div>
   );
 }
