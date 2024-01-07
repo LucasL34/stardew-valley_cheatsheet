@@ -1,30 +1,33 @@
-import type { minFishData } from "config/types";
+import { getIdSeasonIcon, setIcon, parseCompleteData } from "config/utils";
+
+import type { Fish } from "types";
 
 import c from "_components/cards/card.module.css";
 
-function card(props: minFishData) {
-  const { season, name, location } = props;
-
-  const ICON_MOCK = new Array(4).fill("");
+function card(props: Fish) {
+  const { season, name, location, icon, weather } = props;
 
   return (
     <>
       <div className={c.basicCard}>
         <div className={c.header}>
-          <figure className={c.icon}></figure>
+          <img className={c.icon} src={setIcon(icon)} alt={name} title={name} />
         </div>
 
         <div className={c.tags}>
-          {season.map((cat) => {
-            return <span>{cat}</span>;
-          })}
+          {weather.map((weather) => parseCompleteData(weather).name)}
         </div>
 
-        <h3 className={c.name}>{name}</h3>
+        <h2 className={c.name}>{name}</h2>
 
-        <div className={c.iconsList}>
-          {ICON_MOCK.map((v) => {
-            return <figure></figure>;
+        <div className={c.season}>
+          {season.map((cat) => {
+            return (
+              <img
+                src={getIdSeasonIcon(parseCompleteData(cat).name)}
+                alt={parseCompleteData(cat).name}
+              />
+            );
           })}
         </div>
 
@@ -32,7 +35,8 @@ function card(props: minFishData) {
           {location.map((loc, i) => {
             return (
               <span className={c.location}>
-                {loc}
+                {parseCompleteData(loc).name}
+                {loc?.extra ? ` (${loc.extra})` : ""}
                 {i !== location.length - 1 ? ", " : ""}
               </span>
             );

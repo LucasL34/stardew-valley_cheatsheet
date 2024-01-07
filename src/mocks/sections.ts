@@ -1,13 +1,10 @@
-import { fishes } from "./fishes";
+import { getSectionFishes } from "queries/fishes";
 
-import type { minFishData } from "config/types";
-
-import type { Sections } from "mocks/sections";
-
-export const LandingSections: Sections<minFishData>[] = [
-  { id: "fishes", icon: null, title: "fishes", items: fishes },
+// TODO add dynamic sections
+export const LandingSections = [
+  { id: "fishes", icon: null, title: "fishes", items: getSectionFishes() },
 ];
 
-export function getSections(): Sections[] {
+export function getSections() {
   return LandingSections;
 }

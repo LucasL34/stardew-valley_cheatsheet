@@ -25,7 +25,7 @@ function Section(props: Sections) {
         <div className={s.cards}>
           {items.map((item) => {
             // TODO dynamic component card
-            return <FishCard key={item.key} {...item} />;
+            return <FishCard key={item.id} {...item} />;
           })}
         </div>
       </div>

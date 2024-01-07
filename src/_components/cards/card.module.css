@@ -12,19 +12,19 @@
 }
 
 .icon {
-  @apply w-12 h-12 bg-stardew-yellow;
+  @apply w-16 h-16;
 }
 
 .name {
   @apply text-2xl font-bold first-letter:uppercase;
 }
 
-.iconsList {
+.season {
   @apply w-full h-auto py-4 flex justify-center items-center gap-x-4 mx-auto;
 }
 
-.iconsList > figure {
-  @apply w-7 h-7 bg-stardew-yellow;
+.season > img {
+  @apply w-8;
 }
 
 .locContainer {
