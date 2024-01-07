@@ -1,0 +1,786 @@
+[
+  {
+    "id": "pufferfish",
+    "name": "pez globo",
+    "description": "se hincha cuando lo amenazan",
+    "icon": "1QC6hivVlYpBbiWcM8XiDwkgwipGlgDMX",
+    "location": ["océano", { "name": "isla Gengibre", "extra": "océano" }],
+    "time": ["12pm", "4pm"],
+    "season": ["summer", { "name": "all", "extra": "en Isla Gengibre" }],
+    "weather": ["sun"],
+    "type": "common",
+    "price": 200
+  },
+  {
+    "id": "anchovy",
+    "name": "anchoa",
+    "description": "un pequeño pez plateado del océano",
+    "icon": "14Dt7-KQhmRuI0fIbPObj_h_wcgt8B1V5",
+    "location": ["océano"],
+    "time": ["all"],
+    "season": ["spring", "fall"],
+    "weather": ["any"],
+    "type": "common",
+    "price": 30
+  },
+  {
+    "id": "tuna",
+    "name": "atún",
+    "description": "un gran pez que vive en el océano",
+    "icon": "1SPSn1tC_qcFFdO1P6iqaGAHs-Y11HcRV",
+    "location": ["océano", { "name": "océano", "extra": "en Isla Gengibre" }],
+    "time": ["6am", "7pm"],
+    "season": [
+      "summer",
+      "winter",
+      { "name": "all", "extra": "en Isla Gengibre" }
+    ],
+    "weather": ["any"],
+    "type": "common",
+    "price": 100
+  },
+  {
+    "id": "sardine",
+    "name": "sardina",
+    "description": "un pez de agua salada común",
+    "icon": "1iKIdnwZiD6jhihpAIw878v0I_o1Tg1s-",
+    "location": ["océano"],
+    "time": ["6am", "7pm"],
+    "season": ["spring", "fall", "winter"],
+    "weather": ["any"],
+    "type": "common",
+    "price": 40
+  },
+  {
+    "id": "bream",
+    "name": "besugo",
+    "description": "Un pez de río bastante común que se vuelve activo por la noche",
+    "icon": "1hJyxe9xLwdIW8SgKk8Kzih3v8xO2mP1x",
+    "location": [{ "name": "río", "extra": "pueblo y Bosque" }],
+    "time": ["6pm", "2am"],
+    "season": ["all"],
+    "weather": ["any"],
+    "type": "common",
+    "price": 45
+  },
+  {
+    "id": "largemouth-bass",
+    "name": "perca",
+    "description": "Un pez popular que vive en los lagos",
+    "icon": "1G6vOqeZbz3zsAcIKcHYDOCl5teYRIHxB",
+    "location": ["lago de la montaña"],
+    "time": ["6am", "7pm"],
+    "season": ["all"],
+    "weather": ["any"],
+    "type": "common",
+    "price": 100
+  },
+  {
+    "id": "smallmouth-bass",
+    "name": "lubina",
+    "description": "Un pez de agua dulce muy sensible a la contaminación",
+    "icon": "1r0kv66PY9lVSxt0XIWFIMsKWlW1RYQoR",
+    "location": [{ "name": "río", "extra": "pueblo" }, "estanque del Bosque"],
+    "time": ["any"],
+    "season": ["spring", "fall"],
+    "weather": ["any"],
+    "type": "common",
+    "price": 50
+  },
+  {
+    "id": "rainbow-trout",
+    "name": "trucha arcoíris",
+    "description": "una trucha de agua dulce con marcas de colores",
+    "icon": "17Xb5MsgThtkpop-EBaBVtNBQ5udndGI5",
+    "location": [
+      { "name": "río", "extra": "pueblo y Bosque" },
+      "lago de la montaña"
+    ],
+    "time": ["6am", "7pm"],
+    "season": ["summer"],
+    "weather": ["sun"],
+    "type": "common",
+    "price": 65
+  },
+  {
+    "id": "salmon",
+    "name": "salmón",
+    "description": "nada a contracorriente para desovar",
+    "icon": "1TmtGd3PrzkqVa6itwjAeUTlx3p59wYAj",
+    "location": [{ "name": "río", "extra": "pueblo y Bosque" }],
+    "time": ["6am", "7pm"],
+    "season": ["fall"],
+    "weather": ["any"],
+    "type": "common",
+    "price": 75
+  },
+  {
+    "id": "walleye",
+    "name": "lucio",
+    "description": "un pez de agua dulce que se pesca de noche",
+    "icon": "1FT_EAGb2otgz1U99p4O6Ne1mIZcq3znp",
+    "location": [
+      { "name": "río", "extra": "pueblo y Bosque" },
+      { "name": "bosque", "extra": "estanque" },
+      "lago de la montaña"
+    ],
+    "time": ["12pm", "2am"],
+    "season": ["fall", { "name": "winter", "extra": "con Totem de lluvia" }],
+    "weather": ["rain"],
+    "type": "common",
+    "price": 105
+  },
+  {
+    "id": "perch",
+    "name": "cachuelo",
+    "description": "un pez invernal de agua dulce",
+    "icon": "1o4itZfFcCGvD_r7XrPaNGQuuSKzsvflQ",
+    "location": [
+      { "name": "río", "extra": "pueblo y Bosque" },
+      { "name": "bosque", "extra": "estanque" },
+      "lago de la montaña"
+    ],
+    "time": ["any"],
+    "season": ["winter"],
+    "weather": ["any"],
+    "type": "common",
+    "price": 55
+  },
+  {
+    "id": "carp",
+    "name": "carpa",
+    "description": "un pez de estanque común",
+    "icon": "1ryMHjmS_4QyM1O01JEPmHSmvQVX3tdGM",
+    "location": [
+      "lago de la montaña",
+      "estanque del Bosque Secreto",
+      "las cloaca"
+    ],
+    "time": ["any"],
+    "season": ["all"],
+    "weather": ["any"],
+    "type": "common",
+    "price": 30
+  },
+  {
+    "id": "catfish",
+    "name": "pez gato",
+    "description": "Un pez poco común de los arroyos",
+    "icon": "1aC7HsH8fT43vdkO7f0Q7myb3-cmdnyvR",
+    "location": [
+      { "name": "río", "extra": "pueblo y Bosque" },
+      "estanque del Bosque Secreto",
+      "pantano de la bruja"
+    ],
+    "time": ["6am", "12pm"],
+    "season": [
+      "spring",
+      "fall",
+      {
+        "name": ["spring", "summer"],
+        "extra": "en el Estanque del Bosque Secreto"
+      }
+    ],
+    "weather": ["rain"],
+    "type": "common",
+    "price": 200
+  },
+  {
+    "id": "pike",
+    "name": "sauri",
+    "description": "un pez de agua dulce difícil de capturar",
+    "icon": "1m-OBVgRnbkEI_LxYbG0XMIpLH5zjZswf",
+    "location": [
+      { "name": "río", "extra": "pueblo y Bosque" },
+      "estanque del Bosque"
+    ],
+    "time": ["any"],
+    "season": ["summer", "winter"],
+    "weather": ["any"],
+    "type": "common",
+    "price": 100
+  },
+  {
+    "id": "sunfish",
+    "name": "pez sol",
+    "description": "Un pez de río común",
+    "icon": "19Ym9AH6Cjd8uhHKC7eDOK17YD0Cptb1O",
+    "location": [{ "name": "río", "extra": "pueblo y Bosque" }],
+    "time": ["6am", "7pm"],
+    "season": ["spring", "summer"],
+    "weather": ["sun", "wind"],
+    "type": "common",
+    "price": 30
+  },
+  {
+    "id": "red-mullet",
+    "name": "salmonete",
+    "description": "hace mucho eran considerados mascotas",
+    "icon": "136-ocrzwlJr3iS8-XmPjfR5EhkLDAfE4",
+    "location": ["océano"],
+    "time": ["6am", "7pm"],
+    "season": ["summer", "winter"],
+    "weather": ["any"],
+    "type": "common",
+    "price": 75
+  },
+  {
+    "id": "herring",
+    "name": "arenque",
+    "description": "un pez de agua salada común",
+    "icon": "1QI3ftOAs8FXKg7gQ-fBAvU4sBEkEnycu",
+    "location": ["océano"],
+    "time": ["any"],
+    "season": ["spring", "winter"],
+    "weather": ["any"],
+    "type": "common",
+    "price": 30
+  },
+  {
+    "id": "eel",
+    "name": "anguila",
+    "description": "un pez pequeño, largo y resbaladiz",
+    "icon": "1DTifqtLyPQemYgn93pX9prz6FS01A3mH",
+    "location": ["océano"],
+    "time": ["4pm", "2am"],
+    "season": ["spring", "fall"],
+    "weather": ["rain"],
+    "type": "common",
+    "price": 85
+  },
+  {
+    "id": "octopus",
+    "name": "pulpo",
+    "description": "una criatura misteriosa e inteligente",
+    "icon": "1eoXgSKVPmyXyD8nug4YWPZmebts1Pn5y",
+    "location": ["océano"],
+    "time": ["6am", "1pm"],
+    "season": ["summer"],
+    "weather": ["any"],
+    "type": "common",
+    "price": 150
+  },
+  {
+    "id": "red-snapper",
+    "name": "pargo colorado",
+    "description": "un pez popular de un bonito color rojo",
+    "icon": "1AzL1LNzi_KVrEcJVREt3lLdJflJcLu9e",
+    "location": ["océano"],
+    "time": ["6am", "7pm"],
+    "season": [
+      "summer",
+      "fall",
+      { "name": "winter", "detail": "with Totem rain" }
+    ],
+    "weather": ["rain"],
+    "price": 50,
+    "type": "common"
+  },
+  {
+    "id": "squid",
+    "name": "calamar",
+    "description": "una criatura del fondo marino que puede crecer hasta ser enorme",
+    "icon": "1scoMXlXyIPciUORQi7_NmlTtU_kcQEAp",
+    "location": ["océano"],
+    "type": "common",
+    "time": ["6pm", "2am"],
+    "season": ["winter"],
+    "weather": ["any"],
+    "price": 80
+  },
+  {
+    "id": "sea-cucumber",
+    "name": "pepino de mar",
+    "description": "una criatura resbaladiza y viscosa que se encuentra en el fondo del mar",
+    "icon": "1KQwY0dqe6Pgznufg8xTNjY_2dbxpoNJd",
+    "location": ["océano"],
+    "type": "common",
+    "time": ["6am", "7pm"],
+    "season": ["fall", "winter"],
+    "weather": ["any"],
+    "price": 75
+  },
+  {
+    "id": "super-cucumber",
+    "name": "superpepino",
+    "description": "una variedad lila poco común del pepino de mar",
+    "icon": "1ppWuip6iqEMLoUr04iANlcpbiYtnEkZQ",
+    "location": ["océano", { "name": "isla Gengibre", "detail": "océano" }],
+    "time": ["6pm", "2am"],
+    "season": ["summer", "fall", { "name": "any", "detail": "isla Gengibre" }],
+    "weather": ["any"],
+    "price": 250
+  },
+  {
+    "id": "ghostfish",
+    "name": "pez fantasma",
+    "description": "un pez pálido y ciego que habita en lagos subterráneos",
+    "icon": "1ZUZ5XOEtGtuxMLMAdN7_MVeGUYCNLVT_",
+    "location": [
+      { "name": "las Minas", "detail": "pisos: 20-60" },
+      "drop del fantasma"
+    ],
+    "type": "common",
+    "time": ["any"],
+    "season": ["any"],
+    "weather": ["any"],
+    "price": 45
+  },
+  {
+    "id": "stonefish",
+    "name": "pez piedra",
+    "description": "un pez extraño con forma de ladrillo",
+    "icon": "19e4mRsgtYaT5NC2X1bCM-4WGAisA2AMT",
+    "location": [{ "name": "las Minas", "detail": "piso: 20" }],
+    "type": "common",
+    "time": ["any"],
+    "season": ["any"],
+    "weather": ["any"],
+    "price": 300
+  },
+  {
+    "id": "ice-pip",
+    "name": "pez carámbano",
+    "description": "un pez poco común que prospera en condiciones extremadamente frías",
+    "icon": "1IeNwnOgi2YQNiMfF_XTjHekfz7rfbU4Q",
+    "location": [{ "name": "las Minas", "detail": "piso: 60" }],
+    "type": "common",
+    "time": ["any"],
+    "season": ["any"],
+    "weather": ["any"],
+    "price": 500
+  },
+  {
+    "id": "lava-ell",
+    "name": "anguila de lava",
+    "description": "es capaz de sobrevivir en estanques de lava al rojo vivo",
+    "icon": "1NFE30FCtQdQWQIzEeEZvv2M3hpkBuqkm",
+    "type": "common",
+    "location": [
+      { "name": "las Minas", "detail": "piso: 100" },
+      "mazmorra del volcán"
+    ],
+    "time": ["any"],
+    "season": ["any"],
+    "weather": ["any"],
+    "price": 700
+  },
+  {
+    "id": "sandfish",
+    "name": "lenguado",
+    "description": "intenta esconderse usando camuflaje",
+    "icon": "1vkz13i0xD3-_xp6oyA7VEN7ahv5qPX48/",
+    "location": ["el desierto"],
+    "type": "common",
+    "time": ["6am", "8pm"],
+    "season": ["any"],
+    "weather": ["any"],
+    "price": 75
+  },
+  {
+    "id": "scorpion-carp",
+    "name": "carpa escorpión",
+    "description": "es como una carpa normal pero con un aguijón afilado",
+    "icon": "14ALCoJL6YW3hBfagmD5O_n5aWex7Z6dA",
+    "location": [{ "name": "El desierto", "detail": "nivel 4 de pesca" }],
+    "type": "common",
+    "time": ["6am", "8pm"],
+    "season": ["any"],
+    "weather": ["any"],
+    "price": 150
+  },
+  {
+    "id": "flounder",
+    "name": "platija",
+    "description": "vive en la parte inferior, por lo que ambos ojos están encima de su cabeza",
+    "icon": "18ZLAzeklh4TQBBzlRWfb2L8qyjexB2jD",
+    "location": ["océano", { "name": "isla Gengibre", "detail": "océano" }],
+    "time": ["6am", "8pm"],
+    "type": "common",
+    "season": [
+      "spring",
+      "summer",
+      { "name": "any", "detail": "isla Gengibre" }
+    ],
+    "weather": ["any"],
+    "price": 100
+  },
+  {
+    "id": "midnight-carp",
+    "name": "carpa de medianoche",
+    "description": "este pez tímido solo se siente cómodo por la noche",
+    "icon": "1OKVjXLH4F8n36897WDaEoOVa1xRdHnY2",
+    "location": [
+      "lago de la montaña",
+      { "name": "bosque Tizón", "detail": "estanque" },
+      { "name": "isla Gengibre", "detail": "estanque y Rio" }
+    ],
+    "type": "common",
+    "time": ["10pm", "2am"],
+    "season": ["fall", "winter", { "name": "any", "detail": "isla Gengibre" }],
+    "weather": ["any"],
+    "price": 150
+  },
+  {
+    "id": "sturgeon",
+    "name": "esturión",
+    "description": "un pez cada vez más escaso que se alimenta del lecho acuático. Las hembras pueden vivir hasta 150 años",
+    "icon": "1w7tnl5hSfvKuCYMB_CO8ItH6DPbU151m",
+    "location": ["lago de la montaña"],
+    "type": "common",
+    "time": ["6am", "7pm"],
+    "season": ["summer", "winter"],
+    "weather": ["any"],
+    "price": 200
+  },
+  {
+    "id": "tiger-trout",
+    "name": "trucha tigre",
+    "description": "una trucha híbrida poco común que no puede reproducirse",
+    "icon": "1eCM_I3l45liKtVXYJvuIhRDgYBPTezzS",
+    "location": [{ "name": "río", "detail": "pueblo y Bosque" }],
+    "type": "common",
+    "time": ["6am", "7pm"],
+    "season": ["fall", "winter"],
+    "weather": ["any"],
+    "price": 150
+  },
+  {
+    "id": "bullhead",
+    "name": "siluro",
+    "description": "un pariente del pez gato que se alimenta de lo que hay en el fondo de los lagos",
+    "icon": "1luRQf7WTZw0DuE4KO7qHP_GmFyVeMa7f",
+    "location": ["lago de la montaña"],
+    "type": "common",
+    "time": ["any"],
+    "season": ["any"],
+    "weather": ["any"],
+    "price": 75
+  },
+  {
+    "id": "tilapia",
+    "name": "tilapia",
+    "description": "un pez principalmente vegetariano que prefiere el agua templada",
+    "icon": "1L26glcB6yuC3rXFRidgMX8JlNHaKApPL",
+    "location": ["océano", { "name": "isla Gengibre", "detail": "rio" }],
+    "type": "common",
+    "time": ["6am", "2pm"],
+    "season": ["summer", "fall", { "name": "any", "detail": "isla Gengibre" }],
+    "weather": ["any"],
+    "price": 75
+  },
+  {
+    "id": "chub",
+    "name": "barbo",
+    "description": "un pez de agua dulce común y famoso por su voraz apetito",
+    "icon": "1CrBKDtgmcTBv2lHIW1qkldk3VmFQAjnR",
+    "location": ["río del bosque", "lago de la montaña"],
+    "type": "common",
+    "time": ["any"],
+    "season": ["any"],
+    "weather": ["any"],
+    "price": 50
+  },
+  {
+    "id": "dorado",
+    "name": "dorado",
+    "description": "un carnívoro fiero con escamas naranja brillante",
+    "icon": "1DT205qDOwrbCWQdeNRCd0cNIGk1cpdwV",
+    "location": [{ "name": "rio", "detail": "bosque" }],
+    "type": "common",
+    "time": ["6am", "7pm"],
+    "season": ["summer"],
+    "weather": ["any"],
+    "price": 100
+  },
+  {
+    "id": "albacore",
+    "name": "atún blanco",
+    "description": "le gustan los choques de temperatura, donde el agua fría y caliente se juntan",
+    "icon": "1928oSfuZuxqKjYobB8E3S80oyVaD_t_O",
+    "location": ["océano"],
+    "type": "common",
+    "time": ["6am", "11am", "6pm", "2am"],
+    "season": ["fall", "winter"],
+    "weather": ["any"],
+    "price": 75
+  },
+  {
+    "id": "shad",
+    "name": "sábalo",
+    "description": "vive en bancos en el mar, pero vuelve a los ríos para desovar",
+    "icon": "1FUmMNDF9bMIG3J-Gd34HC5vxwzeyj24z",
+    "location": [{ "name": "rio", "detail": "pueblo y Bosque" }],
+    "type": "common",
+    "time": ["9am", "2am"],
+    "season": ["spring", "summer", "fall"],
+    "weather": ["rain"],
+    "price": 60
+  },
+  {
+    "id": "lingcod",
+    "name": "bacalao largo",
+    "description": "un temible depredador que come casi cualquier cosa que le quepa en la boca",
+    "icon": "1UXIe9rZnirH_j_7DIVqWFFNG5PVgyZ7f",
+    "location": [
+      { "name": "rio", "detail": "pueblo y Bosque" },
+      "lago de la montaña"
+    ],
+    "type": "common",
+    "time": ["any"],
+    "season": ["winter"],
+    "weather": ["any"],
+    "price": 120
+  },
+  {
+    "id": "halibut",
+    "name": "fletán",
+    "description": "un pez plano que vive en el fondo marino",
+    "icon": "1yr__wq3b1YKbRRHa8BjvssoK7YQjCpRm",
+    "type": "common",
+    "location": ["océano"],
+    "time": ["6am", "11am", "7pm", "2am"],
+    "season": ["spring", "summer", "winter"],
+    "weather": ["any"],
+    "price": 80
+  },
+  {
+    "id": "woodskip",
+    "name": "muyu",
+    "description": "un pez muy sensible que solo puede vivir en estanques en la profundidad del bosque",
+    "icon": "1nTSEpFHN_5t6fnoOHiuXINMHSAqoviyt",
+    "location": ["estanque del Bosque Secreto", "granja forestal"],
+    "time": ["any"],
+    "type": "common",
+    "season": ["any"],
+    "weather": ["any"],
+    "price": 75
+  },
+  {
+    "id": "void-salmon",
+    "name": "salmón sombrío",
+    "description": "un salmón corrompido por el poder de las sombras. Su carne fresca es de color negro azabache, pero se vuelve rosa rápidamente al exponerse al aire",
+    "icon": "1mdtz4avuEEWNdZ03EwTSYCTHAYhORMXq",
+    "location": ["pantano de la bruja"],
+    "time": ["any"],
+    "type": "common",
+    "season": ["any"],
+    "weather": ["any"],
+    "price": 150
+  },
+  {
+    "id": "slimejack",
+    "name": "babolín",
+    "description": "está cubierto por una espesa capa de baba. ¡No deja de resbalársete!",
+    "icon": "1yDDjXDKuYtjkLGOGcPI8DxtT8ueCViB2",
+    "location": ["madriguera de bichos mutantes"],
+    "time": ["any"],
+    "type": "common",
+    "season": ["any"],
+    "weather": ["any"],
+    "price": 100
+  },
+  {
+    "id": "stingray",
+    "name": "mantarraya",
+    "description": "a pesar de tener un aguijón tóxico, estos peces son tímidos y prefieren evitar a los humanos",
+    "icon": "1XRM0iEESUIK28HOAjw7-opLQMHb60JXi",
+    "location": [{ "name": "cueva pirata", "detail": "isla Gengibre" }],
+    "time": ["any"],
+    "type": "common",
+    "season": ["any"],
+    "weather": ["any"],
+    "price": 180
+  },
+  {
+    "id": "lionfish",
+    "name": "pez león",
+    "description": "un agresivo pez depredador con espinas venenosas",
+    "icon": "14dzrGrqC-6ILOi-rQhECGAgkezlwBtEk",
+    "location": [{ "name": "isla Gengibre", "detail": "océano" }],
+    "type": "common",
+    "time": ["any"],
+    "season": ["any"],
+    "weather": ["any"],
+    "price": 100
+  },
+  {
+    "id": "blue-discus",
+    "name": "pez disco",
+    "description": "un pez tropical con colores brillantes que es popular en acuarios",
+    "icon": "1c91An379n4fhKMl4iQYXLMheEkazNJ6n",
+    "location": [{ "name": "isla Gengibre", "detail": "estanque y Rio" }],
+    "type": "common",
+    "time": ["any"],
+    "season": ["any"],
+    "weather": ["any"],
+    "price": 120
+  },
+  {
+    "id": "midnight-squid",
+    "name": "ca;a,ar de medianoche",
+    "description": "un extraño y misterioso habitante de las profundidades oceánicas tras el crepúsculo",
+    "icon": "1uxmoY9mWkZ0JxxtuWF6Bcv5hv4JJTDCT",
+    "location": [],
+    "type": "night-market",
+    "time": [],
+    "season": [],
+    "weather": [],
+    "price": 100
+  },
+  {
+    "id": "spook-fish",
+    "name": "pez asustado",
+    "description": "unos ojos gigantescos para detectar las débiles siluetas de las presas",
+    "icon": "1Yxov7E2tvGGIoTtbhsz9F9BfNoru9tFf",
+    "location": [],
+    "type": "night-market",
+    "time": [],
+    "season": [],
+    "weather": [],
+    "price": 220
+  },
+  {
+    "id": "blobfish",
+    "name": "pez gota",
+    "description": "eEsta extraña criatura flota sobre el suelo oceánico y consume todo material comestible que se encuentre a su paso",
+    "icon": "17YFLd9S7wHuz1vpCpx4nBt4jmW4AK2yc",
+    "location": [],
+    "type": "night-market",
+    "time": [],
+    "season": [],
+    "weather": [],
+    "price": 500
+  },
+  {
+    "id": "crimsonfish",
+    "name": "pez carmesí",
+    "description": "vive en las profundidades del océano, pero le gusta desovar en el agua cálida del verano",
+    "icon": "1Jjaga90WhrCyF2JYws2x0MIDHAdYFN-T",
+    "location": ["la playa"],
+    "time": ["any"],
+    "type": "legendary",
+    "season": ["summer"],
+    "weather": ["any"],
+    "price": 1500
+  },
+  {
+    "id": "angler",
+    "name": "rape",
+    "description": "utiliza un señuelo bioluminiscente para atraer a sus presas",
+    "icon": "1zF-lqtcTjA58pYhKtUv62DJFmFgiAbeE",
+    "location": ["pueblo Pelícano"],
+    "time": ["any"],
+    "type": "legendary",
+    "season": ["fall"],
+    "weather": ["any"],
+    "price": 900
+  },
+  {
+    "id": "legend",
+    "name": "leyenda",
+    "description": "¡El rey de los peces! Se decía que nadie lo pescaría",
+    "icon": "1jzTFj_-oZd88nkEg048nlV19dWRgWmG0",
+    "location": ["lago de la montaña"],
+    "time": ["any"],
+    "season": ["spring"],
+    "weather": ["rain"],
+    "type": "legendary",
+    "price": 5000
+  },
+  {
+    "id": "glacierfish",
+    "name": "pez glacial",
+    "description": "construye su nido bajo los glaciares",
+    "icon": "1r5GnkBOtenq3qRJ1u8Ctij5de3972bfV",
+    "location": ["bosque Tizón"],
+    "time": ["any"],
+    "season": ["winter"],
+    "type": "legendary",
+    "weather": ["any"],
+    "price": 1000
+  },
+  {
+    "id": "mutant-carp",
+    "name": "carpa mutante",
+    "description": "las extrañas aguas de la cloaca han convertido a esta carpa en una monstruosidad",
+    "icon": "1Zo8Q56jMfdgVCWUL16pBXLPiWuiplkhu",
+    "location": ["las cloaca"],
+    "time": ["any"],
+    "season": ["any"],
+    "weather": ["any"],
+    "type": "legendary",
+    "price": 1000
+  },
+  {
+    "id": "son-of-grimsonfish",
+    "name": "hijo de pez carmesí",
+    "description": "eclosionó en las aguas cálidas del verano, y continuó los pasos de su padre",
+    "icon": "1aiiu_lujSPtohEMU6fUqFKIQtjt-MtMO",
+    "location": [
+      { "name": "la playa", "detail": "al este de Willy. Nivel 5 de pesca" }
+    ],
+    "time": ["any"],
+    "season": ["any"],
+    "weather": ["any"],
+    "type": "legendary",
+    "price": 1500
+  },
+  {
+    "id": "ms-angler",
+    "name": "Sra. Angler",
+    "description": "utiliza una linterna bioluminiscente para atraer a su presa",
+    "icon": "1JxggIzoiqQ_g-G5NVnObQ5qkLLX1AHtk",
+    "location": [
+      { "name": "puente de MercaJoja", "detail": "al norte. Nivel 3 de pesca" }
+    ],
+    "time": ["any"],
+    "season": ["any"],
+    "weather": ["any"],
+    "type": "legendary",
+    "price": 900
+  },
+  {
+    "id": "legend_2",
+    "name": "leyenda II",
+    "description": "el sucesor de la leyenda original",
+    "icon": "1PWLtdzdMsdmaf_IhkxpODWwE0dEhmay7",
+    "location": [
+      { "name": "lago de la Montaña", "detail": "nivel 10 de pesca" }
+    ],
+    "time": ["any"],
+    "season": ["any"],
+    "weather": ["any"],
+    "type": "legendary",
+    "price": 5000
+  },
+  {
+    "id": "glacierfish-jr",
+    "name": "pez glacial joven",
+    "description": "el pez glacial original tuvo un hijo...",
+    "icon": "1MuwRS3hnLzx7DfPlNtMgUum7DtOXFYbq",
+    "location": [
+      {
+        "name": "bosque Tizón",
+        "detail": "al extremo sur, cerca de la Casa en ruinas. Nivel 6 de pesca"
+      }
+    ],
+    "time": ["any"],
+    "weather": ["any"],
+    "season": ["any"],
+    "type": "legendary",
+    "price": 1000
+  },
+  {
+    "id": "radioactive-carp",
+    "name": "carpa radioactive",
+    "description": "una carpa que pasó demasiado tiempo sobre residuos tóxicos",
+    "icon": "1PQKatEvsRQEI8-WrvIgL08AMctMOoRqy",
+    "location": ["las cloaca"],
+    "time": ["any"],
+    "season": ["any"],
+    "weather": ["any"],
+    "type": "legendary",
+    "price": 1000
+  }
+]
